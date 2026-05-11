@@ -20,6 +20,9 @@
 		"url": "https://github.com/winstonma/MMM-HK-Transport-ETA/issues"
 	},
 	"homepage": "https://github.com/winstonma/MMM-HK-Transport-ETA#readme",
+	"scripts": {
+		"demo": "cd ../../ && MM_CONFIG_FILE=modules/MMM-HK-Transport-ETA/demo.config.js node --run start:dev"
+	},
 	"dependencies": {},
 	"devDependencies": {
 		"prettier": "^3.8.1"
